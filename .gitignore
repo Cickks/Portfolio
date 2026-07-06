@@ -1,0 +1,83 @@
+# Operating system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*.publishsettings
+*password*
+*secret*
+*token*
+!**/*SECRET*.md
+!**/*Secret*.md
+!**/*secret*.md
+!**/*TOKEN*.md
+!**/*Token*.md
+!**/*token*.md
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+
+# Large binaries, installers, archives, and VM images
+*.iso
+*.img
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+!**/README.md
+!**/*.md
+
+# Generated reports and build outputs
+reports/generated/
+coverage/
+dist/
+build/
+node_modules/
+.venv/
+venv/
+env/
+
+# Keep screenshot evidence intentional
+*.png
+!screenshots/**/*.png
+!IT-ENGINEER-TOOLKIT/Documentation/**/*.png
+
+# Local recovery, render QA, and generated backup artifacts
+Codex-Generated-Docs/
+Docx-Backups/
+Docx-QA/
+VirtualBox-Recovery-*/
+transfer-test.txt
+
+# Separate portfolio projects not part of the enterprise homelab repo commits
+Mo's Pizza Redesign/
+Mo* Pizza Redesign/
