@@ -18,7 +18,8 @@ Active infrastructure work is in Phase 12 of the homelab roadmap:
 - Phase 12.0A: LINUX01 practice/readiness complete
 - Phase 12.1: Samba complete
 - Phase 12.2: NFS complete
-- Phase 12.3: Cron jobs next
+- Phase 12.3: Cron jobs complete
+- Phase 12.4: Custom systemd services next
 
 LocalOps Assistant is aligned to Phase 22 and remains downstream of the infrastructure foundation.
 It should not operate against lab systems until services are documented, monitored, backed up, and
