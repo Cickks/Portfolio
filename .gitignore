@@ -81,3 +81,10 @@ transfer-test.txt
 # Separate portfolio projects not part of the enterprise homelab repo commits
 Mo's Pizza Redesign/
 Mo* Pizza Redesign/
+
+# Nested Git repositories managed with their own commit history
+AISTEVE/
+IT-ENGINEER-TOOLKIT/
+
+# Local scratch helpers; commit mature tools deliberately when they contain real content
+tools/
